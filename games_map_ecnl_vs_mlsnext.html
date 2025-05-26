@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bc89c59139ac46b4e24e2aa7e1120d4b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bc89c59139ac46b4e24e2aa7e1120d4b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bc89c59139ac46b4e24e2aa7e1120d4b = L.map(
+                "map_bc89c59139ac46b4e24e2aa7e1120d4b",
+                {
+                    center: [37.7749, -122.4194],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_36969c5883f186f314af8b33d5b19e09 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_36969c5883f186f314af8b33d5b19e09.addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var marker_12f217c73de3d7a3586b1c3a3fb734e1 = L.marker(
+                [37.9485, -122.5081],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_1e834457d1a7abfe189a46968800aa87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_12f217c73de3d7a3586b1c3a3fb734e1.setIcon(icon_1e834457d1a7abfe189a46968800aa87);
+        
+    
+        var popup_f29e390a3afe52af2915a17bd549c696 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_905616596abcc9ad5d4fa2ed1f71cff8 = $(`<div id="html_905616596abcc9ad5d4fa2ed1f71cff8" style="width: 100.0%; height: 100.0%;">College of Marin - Stadium</div>`)[0];
+                popup_f29e390a3afe52af2915a17bd549c696.setContent(html_905616596abcc9ad5d4fa2ed1f71cff8);
+            
+        
+
+        marker_12f217c73de3d7a3586b1c3a3fb734e1.bindPopup(popup_f29e390a3afe52af2915a17bd549c696)
+        ;
+
+        
+    
+    
+            var marker_64e0ea93e09c591bd6a0872f0b539837 = L.marker(
+                [37.4069, -121.9766],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_b7c43a62c5ae983b646e1941a1127ab3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_64e0ea93e09c591bd6a0872f0b539837.setIcon(icon_b7c43a62c5ae983b646e1941a1127ab3);
+        
+    
+        var popup_12723d540caea123e5da5e0982724362 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28d86d920b44460dc8b613a8ecb57b3b = $(`<div id="html_28d86d920b44460dc8b613a8ecb57b3b" style="width: 100.0%; height: 100.0%;">Santa Clara Youth Soccer Park - Field 2</div>`)[0];
+                popup_12723d540caea123e5da5e0982724362.setContent(html_28d86d920b44460dc8b613a8ecb57b3b);
+            
+        
+
+        marker_64e0ea93e09c591bd6a0872f0b539837.bindPopup(popup_12723d540caea123e5da5e0982724362)
+        ;
+
+        
+    
+    
+            var marker_959a236d4045a9176d11d93e906ad6db = L.marker(
+                [38.8994, -121.0746],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_cd1bb3dd642d096c3d37e31882b410bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_959a236d4045a9176d11d93e906ad6db.setIcon(icon_cd1bb3dd642d096c3d37e31882b410bb);
+        
+    
+        var popup_8b95d642d93ee1167abd7eb27cc3a604 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8db9a2a2b93bad115977982d96578044 = $(`<div id="html_8db9a2a2b93bad115977982d96578044" style="width: 100.0%; height: 100.0%;">Placer High School - Stadium</div>`)[0];
+                popup_8b95d642d93ee1167abd7eb27cc3a604.setContent(html_8db9a2a2b93bad115977982d96578044);
+            
+        
+
+        marker_959a236d4045a9176d11d93e906ad6db.bindPopup(popup_8b95d642d93ee1167abd7eb27cc3a604)
+        ;
+
+        
+    
+    
+            var marker_87ef34de2bb071d49331504ce1c6b3af = L.marker(
+                [36.6966, -121.6148],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_b4f2ba64bc280cd007be47f65c3534bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_87ef34de2bb071d49331504ce1c6b3af.setIcon(icon_b4f2ba64bc280cd007be47f65c3534bf);
+        
+    
+        var popup_aed8f8298b4c3eae5091f3c92eb5c754 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b98274f91f4d33cce930210cf15f0861 = $(`<div id="html_b98274f91f4d33cce930210cf15f0861" style="width: 100.0%; height: 100.0%;">Alisal High School - Field 1 Stadium</div>`)[0];
+                popup_aed8f8298b4c3eae5091f3c92eb5c754.setContent(html_b98274f91f4d33cce930210cf15f0861);
+            
+        
+
+        marker_87ef34de2bb071d49331504ce1c6b3af.bindPopup(popup_aed8f8298b4c3eae5091f3c92eb5c754)
+        ;
+
+        
+    
+    
+            var marker_d469d2a442d7e63b23c99e561e08e801 = L.marker(
+                [38.7083, -121.1355],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_3f9ef6f9de184d353e372e2ea913f9ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_d469d2a442d7e63b23c99e561e08e801.setIcon(icon_3f9ef6f9de184d353e372e2ea913f9ba);
+        
+    
+        var popup_8dafb5c3f44e181a49df7c207cc172b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a68a9c724faae6990275494b44b31f7 = $(`<div id="html_9a68a9c724faae6990275494b44b31f7" style="width: 100.0%; height: 100.0%;">San Juan Soccer Complex - Blue</div>`)[0];
+                popup_8dafb5c3f44e181a49df7c207cc172b6.setContent(html_9a68a9c724faae6990275494b44b31f7);
+            
+        
+
+        marker_d469d2a442d7e63b23c99e561e08e801.bindPopup(popup_8dafb5c3f44e181a49df7c207cc172b6)
+        ;
+
+        
+    
+    
+            var marker_a72f8dbf7b8856cfe2fbbd2c35cb9a1c = L.marker(
+                [38.5463, -121.7358],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_737535a06c1e958fa16f0b0726f9885b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_a72f8dbf7b8856cfe2fbbd2c35cb9a1c.setIcon(icon_737535a06c1e958fa16f0b0726f9885b);
+        
+    
+        var popup_a514ffc26dbb0a1f945e4b741e83286e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_422d7a88241a2cd2ff6f6c68632e6302 = $(`<div id="html_422d7a88241a2cd2ff6f6c68632e6302" style="width: 100.0%; height: 100.0%;">Davis Legacy Soccer Complex - Field 9</div>`)[0];
+                popup_a514ffc26dbb0a1f945e4b741e83286e.setContent(html_422d7a88241a2cd2ff6f6c68632e6302);
+            
+        
+
+        marker_a72f8dbf7b8856cfe2fbbd2c35cb9a1c.bindPopup(popup_a514ffc26dbb0a1f945e4b741e83286e)
+        ;
+
+        
+    
+    
+            var marker_834153c05081ad56908a2c0e8d000dd9 = L.marker(
+                [38.4807, -122.7044],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_c7c36904890f54e2ade152690b0845e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_834153c05081ad56908a2c0e8d000dd9.setIcon(icon_c7c36904890f54e2ade152690b0845e4);
+        
+    
+        var popup_91fe19217b63f66e4b4b523f3ff81f4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83f37e8e2b04c6866f0f0b9fa722a86b = $(`<div id="html_83f37e8e2b04c6866f0f0b9fa722a86b" style="width: 100.0%; height: 100.0%;">Trione Fields - Trione West</div>`)[0];
+                popup_91fe19217b63f66e4b4b523f3ff81f4c.setContent(html_83f37e8e2b04c6866f0f0b9fa722a86b);
+            
+        
+
+        marker_834153c05081ad56908a2c0e8d000dd9.bindPopup(popup_91fe19217b63f66e4b4b523f3ff81f4c)
+        ;
+
+        
+    
+    
+            var marker_281852b3f784356a67a7e7217865c526 = L.marker(
+                [37.3625, -122.1277],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_8e9ebccd22de3697476034d37744ea18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_281852b3f784356a67a7e7217865c526.setIcon(icon_8e9ebccd22de3697476034d37744ea18);
+        
+    
+        var popup_f7ca665c6f8b20cba27df7397b7e51d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b91b40a448baf62a3d81cb5865e035a = $(`<div id="html_2b91b40a448baf62a3d81cb5865e035a" style="width: 100.0%; height: 100.0%;">Foothill College - Top Hill Soccer Field</div>`)[0];
+                popup_f7ca665c6f8b20cba27df7397b7e51d7.setContent(html_2b91b40a448baf62a3d81cb5865e035a);
+            
+        
+
+        marker_281852b3f784356a67a7e7217865c526.bindPopup(popup_f7ca665c6f8b20cba27df7397b7e51d7)
+        ;
+
+        
+    
+    
+            var marker_a67c575042152dc9801f29235ce6e33e = L.marker(
+                [36.7679, -119.7796],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_ffac528ec3851159e7294a4d651baf56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_a67c575042152dc9801f29235ce6e33e.setIcon(icon_ffac528ec3851159e7294a4d651baf56);
+        
+    
+        var popup_7a65f97ef3b7aea091f493bd219a4406 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e69ea670cee7cc2caebbfd4f7fb1ea9 = $(`<div id="html_2e69ea670cee7cc2caebbfd4f7fb1ea9" style="width: 100.0%; height: 100.0%;">San Joaquin Memorial- 1406 N. Fresno St. Fresno, C - field 1</div>`)[0];
+                popup_7a65f97ef3b7aea091f493bd219a4406.setContent(html_2e69ea670cee7cc2caebbfd4f7fb1ea9);
+            
+        
+
+        marker_a67c575042152dc9801f29235ce6e33e.bindPopup(popup_7a65f97ef3b7aea091f493bd219a4406)
+        ;
+
+        
+    
+    
+            var marker_57551957f455626cb8cccf6ed09d53c6 = L.marker(
+                [37.7823, -122.1815],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_5d2557b0c2d3e73ccfda18b51c96a9f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_57551957f455626cb8cccf6ed09d53c6.setIcon(icon_5d2557b0c2d3e73ccfda18b51c96a9f2);
+        
+    
+        var popup_63f9d5aac15ffae32ab2592c54c6fd0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f62134fc396a910d333ab945e2d954c = $(`<div id="html_9f62134fc396a910d333ab945e2d954c" style="width: 100.0%; height: 100.0%;">Skyline High School - Stadium</div>`)[0];
+                popup_63f9d5aac15ffae32ab2592c54c6fd0f.setContent(html_9f62134fc396a910d333ab945e2d954c);
+            
+        
+
+        marker_57551957f455626cb8cccf6ed09d53c6.bindPopup(popup_63f9d5aac15ffae32ab2592c54c6fd0f)
+        ;
+
+        
+    
+    
+            var marker_7a5584418c0da0b4579096917be07e44 = L.marker(
+                [37.5219, -122.0256],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_d6860e03885666b50650b4234d6ed847 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_7a5584418c0da0b4579096917be07e44.setIcon(icon_d6860e03885666b50650b4234d6ed847);
+        
+    
+        var popup_1458c7e54e49f88eabb29b3ab9cd3002 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e10a57f7656e967773724d87f8547f0a = $(`<div id="html_e10a57f7656e967773724d87f8547f0a" style="width: 100.0%; height: 100.0%;">Newark Sportsfield Park - SFT #1 11v11</div>`)[0];
+                popup_1458c7e54e49f88eabb29b3ab9cd3002.setContent(html_e10a57f7656e967773724d87f8547f0a);
+            
+        
+
+        marker_7a5584418c0da0b4579096917be07e44.bindPopup(popup_1458c7e54e49f88eabb29b3ab9cd3002)
+        ;
+
+        
+    
+    
+            var marker_eeff933c242b709fa41b51e4c32ba264 = L.marker(
+                [37.6585, -121.8781],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_3c45caa0fdc84fbbfc0bb73164b91fd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "e", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_eeff933c242b709fa41b51e4c32ba264.setIcon(icon_3c45caa0fdc84fbbfc0bb73164b91fd7);
+        
+    
+        var popup_97dbfa4952de26cccfa6862fd312aebf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2dd32ec530cbaf3ce6cf091be853a88 = $(`<div id="html_e2dd32ec530cbaf3ce6cf091be853a88" style="width: 100.0%; height: 100.0%;">Provident Field @ MSC - Lower</div>`)[0];
+                popup_97dbfa4952de26cccfa6862fd312aebf.setContent(html_e2dd32ec530cbaf3ce6cf091be853a88);
+            
+        
+
+        marker_eeff933c242b709fa41b51e4c32ba264.bindPopup(popup_97dbfa4952de26cccfa6862fd312aebf)
+        ;
+
+        
+    
+    
+            var marker_e780b9957620e0a5b274643ba93c7e8e = L.marker(
+                [37.8253, -122.3706],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_1ee93bde4c33997a9d043a7ce62db730 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_e780b9957620e0a5b274643ba93c7e8e.setIcon(icon_1ee93bde4c33997a9d043a7ce62db730);
+        
+    
+        var popup_5aee1c33d2c7a921ddca92d1eab923d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e219494c217bbb4c5fe33c238790f6b5 = $(`<div id="html_e219494c217bbb4c5fe33c238790f6b5" style="width: 100.0%; height: 100.0%;">SF Glens TI Field</div>`)[0];
+                popup_5aee1c33d2c7a921ddca92d1eab923d9.setContent(html_e219494c217bbb4c5fe33c238790f6b5);
+            
+        
+
+        marker_e780b9957620e0a5b274643ba93c7e8e.bindPopup(popup_5aee1c33d2c7a921ddca92d1eab923d9)
+        ;
+
+        
+    
+    
+            var marker_5bc8981012787322588bf85c369fc122 = L.marker(
+                [37.6746, -121.0158],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_654b38ee3be29a26d016d3766f7ffba6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_5bc8981012787322588bf85c369fc122.setIcon(icon_654b38ee3be29a26d016d3766f7ffba6);
+        
+    
+        var popup_194193586557901d68cc48a1819766a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36eca23671c5c170607a61a0573571cc = $(`<div id="html_36eca23671c5c170607a61a0573571cc" style="width: 100.0%; height: 100.0%;">Mary Grogan Community Park - Field 2</div>`)[0];
+                popup_194193586557901d68cc48a1819766a8.setContent(html_36eca23671c5c170607a61a0573571cc);
+            
+        
+
+        marker_5bc8981012787322588bf85c369fc122.bindPopup(popup_194193586557901d68cc48a1819766a8)
+        ;
+
+        
+    
+    
+            var marker_fc7a92eb04a6bfbae716427282288cb1 = L.marker(
+                [37.3216, -122.0475],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_22ecac2d5735a1b954ee2bfeef098e1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_fc7a92eb04a6bfbae716427282288cb1.setIcon(icon_22ecac2d5735a1b954ee2bfeef098e1d);
+        
+    
+        var popup_60c57f39c5ab5106fb5e422afe980cd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3938d2e1b5243f025434f2f2bde38f6a = $(`<div id="html_3938d2e1b5243f025434f2f2bde38f6a" style="width: 100.0%; height: 100.0%;">De Anza College - Stadium</div>`)[0];
+                popup_60c57f39c5ab5106fb5e422afe980cd3.setContent(html_3938d2e1b5243f025434f2f2bde38f6a);
+            
+        
+
+        marker_fc7a92eb04a6bfbae716427282288cb1.bindPopup(popup_60c57f39c5ab5106fb5e422afe980cd3)
+        ;
+
+        
+    
+    
+            var marker_83b8e82f8f622a1d01e13c8b8f1e03ea = L.marker(
+                [36.9363, -121.7625],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_5baad7a5af55dfba4efc57e83c8955c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_83b8e82f8f622a1d01e13c8b8f1e03ea.setIcon(icon_5baad7a5af55dfba4efc57e83c8955c2);
+        
+    
+        var popup_25e4ad8ee17fd7d1e8d1d9b2ee9ef615 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4180d2fd2f9be185b47249b7f8b3e2b0 = $(`<div id="html_4180d2fd2f9be185b47249b7f8b3e2b0" style="width: 100.0%; height: 100.0%;">Monte Vista Christian School - Mustang Stadium</div>`)[0];
+                popup_25e4ad8ee17fd7d1e8d1d9b2ee9ef615.setContent(html_4180d2fd2f9be185b47249b7f8b3e2b0);
+            
+        
+
+        marker_83b8e82f8f622a1d01e13c8b8f1e03ea.bindPopup(popup_25e4ad8ee17fd7d1e8d1d9b2ee9ef615)
+        ;
+
+        
+    
+    
+            var marker_7291f7e3ceea4c4c08f5b8e4eab8596c = L.marker(
+                [37.4072, -122.0945],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_a657ae4817d426e1a92b4b57a85f8d17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_7291f7e3ceea4c4c08f5b8e4eab8596c.setIcon(icon_a657ae4817d426e1a92b4b57a85f8d17);
+        
+    
+        var popup_0cb8caf77a9f6c61bc65e39b8142b069 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f8c8404b682aa776cdcee44ce6c1a3a = $(`<div id="html_6f8c8404b682aa776cdcee44ce6c1a3a" style="width: 100.0%; height: 100.0%;">Mayfield Soccer Complex - Mayfield South</div>`)[0];
+                popup_0cb8caf77a9f6c61bc65e39b8142b069.setContent(html_6f8c8404b682aa776cdcee44ce6c1a3a);
+            
+        
+
+        marker_7291f7e3ceea4c4c08f5b8e4eab8596c.bindPopup(popup_0cb8caf77a9f6c61bc65e39b8142b069)
+        ;
+
+        
+    
+    
+            var marker_c5cb44baae88102e1715ec6d6a9eb7fa = L.marker(
+                [38.5535, -121.4064],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_73505fad64bbc4c1124685b4240ded17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_c5cb44baae88102e1715ec6d6a9eb7fa.setIcon(icon_73505fad64bbc4c1124685b4240ded17);
+        
+    
+        var popup_bb609f261c206d2764595513cced6784 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e5790818a9ffa4980bc629ba1972346 = $(`<div id="html_4e5790818a9ffa4980bc629ba1972346" style="width: 100.0%; height: 100.0%;">Granite Regional Park - Turf</div>`)[0];
+                popup_bb609f261c206d2764595513cced6784.setContent(html_4e5790818a9ffa4980bc629ba1972346);
+            
+        
+
+        marker_c5cb44baae88102e1715ec6d6a9eb7fa.bindPopup(popup_bb609f261c206d2764595513cced6784)
+        ;
+
+        
+    
+    
+            var marker_6212aa7c86613db03d9026d0912eb264 = L.marker(
+                [37.526, -121.9281],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_6e4bcb9a0c60336a2c22593364c32a13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_6212aa7c86613db03d9026d0912eb264.setIcon(icon_6e4bcb9a0c60336a2c22593364c32a13);
+        
+    
+        var popup_de445db996a45d17129496fd72336ff3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c64513eae68a788da3dd3520124a016e = $(`<div id="html_c64513eae68a788da3dd3520124a016e" style="width: 100.0%; height: 100.0%;">Ohlone College - Soccer Field</div>`)[0];
+                popup_de445db996a45d17129496fd72336ff3.setContent(html_c64513eae68a788da3dd3520124a016e);
+            
+        
+
+        marker_6212aa7c86613db03d9026d0912eb264.bindPopup(popup_de445db996a45d17129496fd72336ff3)
+        ;
+
+        
+    
+    
+            var marker_62d3da5b59a4e8b4e3888d4a96722e5b = L.marker(
+                [37.5148, -122.2907],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_5219841e49915e8520c8e98d19e0b99f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_62d3da5b59a4e8b4e3888d4a96722e5b.setIcon(icon_5219841e49915e8520c8e98d19e0b99f);
+        
+    
+        var popup_321939bfc38e35e85106b65bcb04cb99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5aabe8bbb9f4591eae6987e2ca6b16c4 = $(`<div id="html_5aabe8bbb9f4591eae6987e2ca6b16c4" style="width: 100.0%; height: 100.0%;">Notre Dame de Namur University - Koret Field</div>`)[0];
+                popup_321939bfc38e35e85106b65bcb04cb99.setContent(html_5aabe8bbb9f4591eae6987e2ca6b16c4);
+            
+        
+
+        marker_62d3da5b59a4e8b4e3888d4a96722e5b.bindPopup(popup_321939bfc38e35e85106b65bcb04cb99)
+        ;
+
+        
+    
+    
+            var marker_47a99f9faa5909d0a03641eedf2aa8e4 = L.marker(
+                [37.9621, -122.0137],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_325bdc77bf55d53eaa8a7df9e89759b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_47a99f9faa5909d0a03641eedf2aa8e4.setIcon(icon_325bdc77bf55d53eaa8a7df9e89759b8);
+        
+    
+        var popup_b47f84b443d049e46aca96bcb2c96f98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1164e60156f6564a949a21c1ae1a4b2d = $(`<div id="html_1164e60156f6564a949a21c1ae1a4b2d" style="width: 100.0%; height: 100.0%;">Concord High - Stadium</div>`)[0];
+                popup_b47f84b443d049e46aca96bcb2c96f98.setContent(html_1164e60156f6564a949a21c1ae1a4b2d);
+            
+        
+
+        marker_47a99f9faa5909d0a03641eedf2aa8e4.bindPopup(popup_b47f84b443d049e46aca96bcb2c96f98)
+        ;
+
+        
+    
+    
+            var marker_edb1049a67130b8d803e074e14b08394 = L.marker(
+                [38.4799, -121.4254],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_faa168ccb589913887f3177d2d3a2740 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_edb1049a67130b8d803e074e14b08394.setIcon(icon_faa168ccb589913887f3177d2d3a2740);
+        
+    
+        var popup_518d805e0867b965b45567fbf26c71db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d964bafa6e0a59c8d8dfbf30c8d2a71 = $(`<div id="html_2d964bafa6e0a59c8d8dfbf30c8d2a71" style="width: 100.0%; height: 100.0%;">Cosumnes River College Stadium - Stadium Field</div>`)[0];
+                popup_518d805e0867b965b45567fbf26c71db.setContent(html_2d964bafa6e0a59c8d8dfbf30c8d2a71);
+            
+        
+
+        marker_edb1049a67130b8d803e074e14b08394.bindPopup(popup_518d805e0867b965b45567fbf26c71db)
+        ;
+
+        
+    
+    
+            var marker_2bdb6538faa40ba5e653e2d3235d93d1 = L.marker(
+                [37.8822, -122.1884],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_3d5556123689a06c244bd817180638a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_2bdb6538faa40ba5e653e2d3235d93d1.setIcon(icon_3d5556123689a06c244bd817180638a9);
+        
+    
+        var popup_24ded02e844fdab8c3f5a6d58f1042dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f087e1225c7d869a81491e865ec63d10 = $(`<div id="html_f087e1225c7d869a81491e865ec63d10" style="width: 100.0%; height: 100.0%;">Wilder Fields - Field 2 - Wilder 2</div>`)[0];
+                popup_24ded02e844fdab8c3f5a6d58f1042dd.setContent(html_f087e1225c7d869a81491e865ec63d10);
+            
+        
+
+        marker_2bdb6538faa40ba5e653e2d3235d93d1.bindPopup(popup_24ded02e844fdab8c3f5a6d58f1042dd)
+        ;
+
+        
+    
+    
+            var marker_09654c160902dde7dd23f6dc8393e21d = L.marker(
+                [38.4131, -122.7452],
+                {}
+            ).addTo(map_bc89c59139ac46b4e24e2aa7e1120d4b);
+        
+    
+            var icon_44cd31eb3593ce96183238e0a8c9e337 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "m", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_09654c160902dde7dd23f6dc8393e21d.setIcon(icon_44cd31eb3593ce96183238e0a8c9e337);
+        
+    
+        var popup_bc2bc0baea10b9d86c4532c9f49e0635 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34b0266400f71e3129a1f725e1c0c35e = $(`<div id="html_34b0266400f71e3129a1f725e1c0c35e" style="width: 100.0%; height: 100.0%;">Elsie Allen High School</div>`)[0];
+                popup_bc2bc0baea10b9d86c4532c9f49e0635.setContent(html_34b0266400f71e3129a1f725e1c0c35e);
+            
+        
+
+        marker_09654c160902dde7dd23f6dc8393e21d.bindPopup(popup_bc2bc0baea10b9d86c4532c9f49e0635)
+        ;
+
+        
+    
+</script>
+</html>
